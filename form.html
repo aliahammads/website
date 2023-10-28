@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Job Role Registration Form</title>
+</head>
+
+<body>
+    <h2>Job Role Registration Form</h2>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="resume">Resume:</label><br>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required><br><br>
+
+        <label for="role">Desired Role:</label><br>
+        <input type="text" id="role" name="role" required><br><br>
+
+        <label for="experience">Years of Experience:</label><br>
+        <input type="number" id="experience" name="experience" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
